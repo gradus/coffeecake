@@ -1,12 +1,12 @@
 {
-  "name": "../../coffeecake",
-  "description": "Enter Description Here",
-  "version": "0.0.1",
+  "name": "coffeecake",
+  "description": "a site generated with @twilson63 cupcake and coffeecup",
+  "version": "0.0.1-1",
   "homepage": "http://#",
-  "author": "You",
+  "author": "Kris Windham",
   "private": true,
   "scripts": {
-    "start": "node server.js"
+    "start": "server.js"
   },
   "dependencies": {
     "coffee-script": ">= 1.x",
@@ -15,8 +15,13 @@
     "connect-assets": "*",
     "stylus": "*",
     "nib": "*",
-    "express": "*"
+    "express": "*",
+    "connect-file-cache": "*",
+    "snockets": "*",
+    "underscore": "*"
   },
-  "engines": { "node": "0.6 || 0.7" }
+  "engines": {
+    "node": "0.6 || 0.7"
+  },
+  "subdomain": "coffeecake"
 }
-

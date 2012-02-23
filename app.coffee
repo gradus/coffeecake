@@ -15,7 +15,7 @@ app.use require('connect-assets')()
 
 # App Routes
 app.get '/', (req, resp) ->
-  resp.render 'index.coffee', title: 'Your Title Here'
+  resp.render 'index.coffee', title: 'CoffeeCake'
 
 # Listen
 app.listen 3000, -> console.log 'Listening on port 3000'
